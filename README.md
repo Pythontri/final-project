@@ -1,59 +1,46 @@
-# Project
+1. Пользовательский интерфейс:
+Регистрация и авторизация пользователей:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Создание аккаунта с электронной почтой и паролем.
 
-## Development server
+Вход в систему.
 
-To start a local development server, run:
+Восстановление пароля.
 
-```bash
-ng serve
-```
+Профиль пользователя:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Просмотр и редактирование информации о пользователе.
 
-## Code scaffolding
+Просмотр истории заказов и статуса текущих.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Управление адресами доставки и методами оплаты.
 
-```bash
-ng generate component component-name
-```
+2. Каталог товаров:
+Просмотр товаров:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Сортировка товаров по категориям (электроника, одежда, книги и т.д.).
 
-```bash
-ng generate --help
-```
+Фильтры для поиска товаров по цене, бренду, рейтингу и другим характеристикам.
 
-## Building
+Страница каждого товара с подробным описанием, изображениями и ценой.
 
-To build the project run:
+Поиск товаров:
 
-```bash
-ng build
-```
+Поиск по ключевым словам, категориям, брендам.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+3. Корзина и оформление заказа:
+Корзина покупок:
+Добавление товаров в корзину.
+Изменение количества товаров в корзине.
+Удаление товаров.
+Просмотр стоимости товаров в корзине.
+Оформление заказа:
+Просмотр итоговой суммы 
+Оплата через кредитные карты, PayPal или другие платежные системы.
+Подтверждение заказа:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Daulet Damir
+Bokey Tolegen
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
